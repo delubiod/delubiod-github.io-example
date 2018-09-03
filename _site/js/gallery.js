@@ -19,6 +19,7 @@ function activateGallery() {
       document.querySelector(".current").classList.remove("current");
       thumbnail.parentNode.classList.add("current");
 
+      // Update image info.
       let galleryInfo = document.querySelector("#gallery-info");
       let title       = galleryInfo.querySelector(".title");
       let description = galleryInfo.querySelector(".description");
